@@ -1,0 +1,55 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.venv3/
+.venv36/
+.venv37/
+.venv38/
+
+# Ignore logs and other generated files
+*.log
+*.log.*
+logs/
+logs-*/
+
+# Ignore database files (if applicable)
+*.sqlite3 
+*.db
+
+# Ignore IDE and code editor-specific files and directories
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+
+# Ignore local environment files
+.env
+.env.local
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files that may contain sensitive information
+config.ini
+config.yml
+config.json
+
+# Ignore user-specific files
+*.bak
+*.swp
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+
+# Ignore testing and development directories
+__test__/
+test/
+tests/
+testing/
